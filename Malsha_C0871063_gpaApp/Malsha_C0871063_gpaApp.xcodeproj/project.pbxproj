@@ -15,6 +15,10 @@
 		2CC5E198290892920015586D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC5E196290892920015586D /* LaunchScreen.storyboard */; };
 		2CC5E1A02908966A0015586D /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC5E19F2908966A0015586D /* AddStudentViewController.swift */; };
 		2CC5E1A2290896B40015586D /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC5E1A1290896B40015586D /* Student.swift */; };
+		2CC5E1A4290897A20015586D /* CalculateGPAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC5E1A3290897A20015586D /* CalculateGPAViewController.swift */; };
+		2CC5E1A6290897B60015586D /* SemesterSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC5E1A5290897B60015586D /* SemesterSelectionViewController.swift */; };
+		2CC5E1A8290898590015586D /* Semester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC5E1A7290898580015586D /* Semester.swift */; };
+		2CC5E1AA2908988E0015586D /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2CC5E1A92908988D0015586D /* clap.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		2CC5E199290892920015586D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CC5E19F2908966A0015586D /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
 		2CC5E1A1290896B40015586D /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		2CC5E1A3290897A20015586D /* CalculateGPAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateGPAViewController.swift; sourceTree = "<group>"; };
+		2CC5E1A5290897B60015586D /* SemesterSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemesterSelectionViewController.swift; sourceTree = "<group>"; };
+		2CC5E1A7290898580015586D /* Semester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semester.swift; sourceTree = "<group>"; };
+		2CC5E1A92908988D0015586D /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 		2CC5E18A290892900015586D /* Malsha_C0871063_gpaApp */ = {
 			isa = PBXGroup;
 			children = (
+				2CC5E1A92908988D0015586D /* clap.wav */,
 				2CC5E18B290892900015586D /* AppDelegate.swift */,
 				2CC5E18D290892900015586D /* SceneDelegate.swift */,
 				2CC5E18F290892900015586D /* StudentListViewController.swift */,
@@ -69,6 +78,9 @@
 				2CC5E199290892920015586D /* Info.plist */,
 				2CC5E19F2908966A0015586D /* AddStudentViewController.swift */,
 				2CC5E1A1290896B40015586D /* Student.swift */,
+				2CC5E1A3290897A20015586D /* CalculateGPAViewController.swift */,
+				2CC5E1A5290897B60015586D /* SemesterSelectionViewController.swift */,
+				2CC5E1A7290898580015586D /* Semester.swift */,
 			);
 			path = Malsha_C0871063_gpaApp;
 			sourceTree = "<group>";
@@ -131,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC5E1AA2908988E0015586D /* clap.wav in Resources */,
 				2CC5E198290892920015586D /* LaunchScreen.storyboard in Resources */,
 				2CC5E195290892920015586D /* Assets.xcassets in Resources */,
 				2CC5E193290892900015586D /* Main.storyboard in Resources */,
@@ -145,7 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CC5E1A02908966A0015586D /* AddStudentViewController.swift in Sources */,
+				2CC5E1A8290898590015586D /* Semester.swift in Sources */,
 				2CC5E190290892900015586D /* StudentListViewController.swift in Sources */,
+				2CC5E1A6290897B60015586D /* SemesterSelectionViewController.swift in Sources */,
+				2CC5E1A4290897A20015586D /* CalculateGPAViewController.swift in Sources */,
 				2CC5E18C290892900015586D /* AppDelegate.swift in Sources */,
 				2CC5E1A2290896B40015586D /* Student.swift in Sources */,
 				2CC5E18E290892900015586D /* SceneDelegate.swift in Sources */,

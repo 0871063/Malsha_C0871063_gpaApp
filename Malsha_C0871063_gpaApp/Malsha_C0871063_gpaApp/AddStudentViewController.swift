@@ -8,7 +8,7 @@
 import UIKit
 
 class AddStudentViewController: UIViewController {
-    
+
     @IBOutlet weak var lastNameText: UITextField!
     @IBOutlet weak var firstNameText: UITextField!
     @IBOutlet weak var studentIDText: UITextField!
